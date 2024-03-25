@@ -8,6 +8,6 @@ myNumber = myName
 myName = temp
 
 console.log("myNumber:", myNumber)
-console.log("myName", myName)
+console.log("myName:", myName)
 
 
