@@ -4,9 +4,9 @@ However, if it is divisible by 400, then it is. */
 
 function isLeapYear(year){
     if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
-        return true
+        return true;
     } else {
-        return false
+        return false;
     }
 }
 

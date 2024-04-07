@@ -6,7 +6,5 @@ var day = 28
 if (month == 8 && day == 28 ) {
     console.log("how did you know?")
 } else {
-    console.log("Just another day...")
+    console.log("Just another day...");
 }
-
-console.log(4)
