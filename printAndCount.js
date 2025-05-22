@@ -1,13 +1,10 @@
 // Print all integer multiples of 5, from 512 to 4096. Afterward, also log how many there were.
+let count = 0
 
-var num = 512
-var count = 0 
-
-while (num < 4096){
-    if (num % 5 === 0) {
-        console.log(num)
+for (let i = 512; i < 4097; i++){
+    if (i % 5 === 0) {
+        console.log(i)
         count++
+        }
     }
-    num++
-}
-console.log("total multiples of 5:" + count)
+console.log("total multiples of 5: " + count)
